@@ -72,5 +72,5 @@
       \ hFinal
       \ eFinal
       \ nuEff
-    highlight link ofVariables Special                                                                                 
+    highlight link ofVariables Special
 "------------------------------------------------------------------------------

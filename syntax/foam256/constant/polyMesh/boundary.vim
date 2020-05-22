@@ -12,15 +12,15 @@
 
     "- Boundary types
     syn keyword blockMeshDictTypes
-    \ patch 
-    \ wall 
-    \ symmetryPlane 
+    \ patch
+    \ wall
+    \ symmetryPlane
     \ symmetry
-    \ empty 
-    \ slip 
-    \ cyclic 
-    \ mappedWall 
-    \ cyclicAMI 
+    \ empty
+    \ slip
+    \ cyclic
+    \ mappedWall
+    \ cyclicAMI
     \ cyclicACMI
     \ noOrdering
     \ coincidentFullMatch
@@ -31,34 +31,34 @@
 
 
     "-
-    syn keyword blockMeshDictKeys 
-    \ inGroups 
-    \ type 
+    syn keyword blockMeshDictKeys
+    \ inGroups
+    \ type
     \ arc
-    \ nFaces 
-    \ startFace 
-    \ offsetMode 
-    \ sampleMode 
-    \ sampleRegion 
-    \ samplePatch 
-    \ offset 
-    \ matchTolerance 
-    \ transform 
+    \ nFaces
+    \ startFace
+    \ offsetMode
+    \ sampleMode
+    \ sampleRegion
+    \ samplePatch
+    \ offset
+    \ matchTolerance
+    \ transform
     \ neighbourPatch
     highlight link blockMeshDictKeys foam256_keyOnLeftSide
 
 
     "-
-    syn keyword blockMeshDictSpecialKeys 
-    \ nearestPatchFace 
-    \ nearestCell 
-    \ nearestFace 
-    \ nearestPatchFaceAMI 
-    \ nearestPatchPoint 
-    \ noOrdering 
-    \ coincidentFullMatch 
-    \ rotational 
-    \ translational 
+    syn keyword blockMeshDictSpecialKeys
+    \ nearestPatchFace
+    \ nearestCell
+    \ nearestFace
+    \ nearestPatchFaceAMI
+    \ nearestPatchPoint
+    \ noOrdering
+    \ coincidentFullMatch
+    \ rotational
+    \ translational
     \ unknown
     highlight link blockMeshDictSpecialKeys foam256_specialEntry
 

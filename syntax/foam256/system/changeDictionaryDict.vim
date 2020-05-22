@@ -10,9 +10,9 @@
 " changeDictionaryDict
 "-------------------------------------------------------------------------------
 
-    "- Dictionarys in the file 
-    syn keyword dictReplace 
-    \ boundary 
+    "- Dictionarys in the file
+    syn keyword dictReplace
+    \ boundary
     highlight link dictReplace foam256_dictionary
 
 

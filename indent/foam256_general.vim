@@ -6,6 +6,6 @@
 "----------------------------------------------"
 
 
-" indentation general indentation 
+" indentation general indentation
 " -----------------------------------------------------------------------------
 runtime indent/foam256_indentation.vim

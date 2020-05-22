@@ -6,15 +6,15 @@
 " Email:       Tobias.Holzmann@Holzmann-cfd.de "
 "----------------------------------------------"
 
-" dynamicMeshDict 
+" dynamicMeshDict
 "-------------------------------------------------------------------------------
 
 
-    "- Constant words  
-    syn keyword dynamicFvMesh 
+    "- Constant words
+    syn keyword dynamicFvMesh
     \ dynamicFvMesh
     \ motionSolverLibs
-    \ solver 
+    \ solver
     \ sixDoFRigidBodyMotionCoeffs
     \ dynamicInkJetFvMeshCoeffs
     \ dynamicMotionSolverFvMeshCoeffs
@@ -49,8 +49,8 @@
 
 
     "- DynamicFvMesh
-    syn keyword dynamicFvMeshSolver 
-    \ dynamicMotionSolverFvMesh 
+    syn keyword dynamicFvMeshSolver
+    \ dynamicMotionSolverFvMesh
     \ dynamicInkJetFvMesh
     \ dynamicMotionSolverFvMesh
     \ dynamicRefineFvMesh
@@ -61,12 +61,12 @@
     \ staticFvMesh
     \ Newmark
     \ Crank-Nicolsen
-    hi link dynamicFvMeshSolver foam256_tranportModels 
-    
-    
+    hi link dynamicFvMeshSolver foam256_tranportModels
+
+
     "- Solvers that can be used
-    syn keyword dynamicFvMeshSolver 
-    \ sixDoFRigidBodyMotion 
+    syn keyword dynamicFvMeshSolver
+    \ sixDoFRigidBodyMotion
     \ dynamicInkJetFvMesh
     \ dynamicMotionSolverFvMesh
     \ dynamicRefineFvMesh
@@ -85,11 +85,11 @@
 
     "- Dictionary
     syn keyword solverCoeffs
-    \ twoPhase 
-    \ phase1 
-    \ phase2 
-    \ CrossPowerLawCoeffs 
-    \ BirdCarreauCoeffs 
+    \ twoPhase
+    \ phase1
+    \ phase2
+    \ CrossPowerLawCoeffs
+    \ BirdCarreauCoeffs
     hi link solverCoeffs foam256_dictionary
 
 

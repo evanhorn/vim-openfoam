@@ -20,12 +20,12 @@
     \ mergePatchPairs
     highlight link blockMeshDictDict foam256_dictionary
 
-    
-    "-  
-    syn keyword	blockMeshDictKeywords 
-    \ convertToMeters 
-    \ hex 
-    \ simpleGrading 
+
+    "-
+    syn keyword	blockMeshDictKeywords
+    \ convertToMeters
+    \ hex
+    \ simpleGrading
     \ faces
     highlight link blockMeshDictKeywords foam256_keyOnLeftSide
 

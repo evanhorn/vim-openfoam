@@ -12,13 +12,13 @@
 
 
     "- Keywords in methods
-    syntax keyword decomposeKeywords 
-    \ method 
-    \ delta 
-    \ order 
-    \ dataFile 
-    \ numberOfSubdomains 
-    \ distributed 
+    syntax keyword decomposeKeywords
+    \ method
+    \ delta
+    \ order
+    \ dataFile
+    \ numberOfSubdomains
+    \ distributed
     \ n
     \ roots
     \ preserveFaceZones
@@ -31,12 +31,12 @@
     highlight link decomposeKeywords foam256_keyOnLeftSide
 
 
-    "- Dictionary (coefficents) of method 
-    syntax keyword decomposeCoeffs 
-    \ simpleCoeffs 
-    \ hierarchicalCoeffs 
-    \ manualCoeffs 
-    \ structuredCoeffs 
+    "- Dictionary (coefficents) of method
+    syntax keyword decomposeCoeffs
+    \ simpleCoeffs
+    \ hierarchicalCoeffs
+    \ manualCoeffs
+    \ structuredCoeffs
     \ scotchCoeffs
     \ multiLevelCoeffs
     \ metisCoeffs
@@ -44,21 +44,21 @@
     highlight link decomposeCoeffs foam256_dictionary
 
 
-    "- Dictionary for multilevel 
+    "- Dictionary for multilevel
     syntax match decomposeMultiLevel
     \ "level\{1}[0-9]\{1,2}"
     highlight link decomposeMultiLevel foam256_dictionary
 
 
     "- Methods which can be used
-    syntax keyword decomposeMet 
-    \ ptScotch 
-    \ scotch 
-    \ hierarchical 
-    \ simple 
-    \ metis 
+    syntax keyword decomposeMet
+    \ ptScotch
+    \ scotch
+    \ hierarchical
+    \ simple
+    \ metis
     \ processorWeights
-    \ structured 
+    \ structured
     \ manual
     \ dsmcRhoNMean
     \ multiLevel

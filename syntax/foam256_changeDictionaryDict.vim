@@ -14,7 +14,7 @@ if exists("b:current_syntax")
 endif
 
 
-" Load file to buffer for completition
+" Load file to buffer for completion
 " -----------------------------------------------------------------------------
 let s:plugindir = expand('<sfile>:p:h:h')
 let s:filepath1= join([ s:plugindir ,"syntax/foam256/0/BC.vim"],"/")
@@ -24,7 +24,7 @@ exec "badd ".s:filepath2
 
 
 
-" Source general stuff 
+" Source general stuff
 " -----------------------------------------------------------------------------
 runtime syntax/foam256/general/general.vim
 
@@ -39,7 +39,7 @@ runtime syntax/foam256/general/variables.vim
 runtime syntax/foam256/0/BC.vim
 
 
-" Source highlight for the changeDictionaryDict 
+" Source highlight for the changeDictionaryDict
 " -----------------------------------------------------------------------------
 runtime syntax/foam256/system/changeDictionaryDict.vim
 

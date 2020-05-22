@@ -21,7 +21,7 @@ let s:filepath= join([ s:plugindir ,"syntax/foam256/const/thermodynamicPropertie
 exec "badd ".s:filepath
 
 
-" Source general stuff 
+" Source general stuff
 " -----------------------------------------------------------------------------
 runtime syntax/foam256/general/general.vim
 
@@ -31,7 +31,7 @@ runtime syntax/foam256/general/general.vim
 runtime syntax/foam256/general/variables.vim
 
 
-" Source highlight for the changeDictionaryDict 
+" Source highlight for the changeDictionaryDict
 " -----------------------------------------------------------------------------
 runtime syntax/foam256/constant/thermodynamicProperties.vim
 

@@ -12,13 +12,13 @@
 
 
     "-
-    syn keyword turbProperties 
+    syn keyword turbProperties
     \ simulationType
     highlight link turbProperties foam256_turbPropKey
 
 
     "-
-    syn keyword turbModel 
+    syn keyword turbModel
     \ RAS
     \ LES
     \ laminar

@@ -10,7 +10,7 @@
 " fvSchemes
 "-------------------------------------------------------------------------------
 
-    
+
     "- Stuff for functions
     syntax keyword fvOptionsKeysLS
     \ active
@@ -33,11 +33,11 @@
     highlight link fvOptionsDict foam256_dictionary
 
 
-    "- Identifier 
+    "- Identifier
     syn keyword fvOptionsIdent
-    \ scalarTransport 
-    \ outputTime 
-    \ scalarSemiImplicitSource 
+    \ scalarTransport
+    \ outputTime
+    \ scalarSemiImplicitSource
     \ points
     \ specific
     \ absolute

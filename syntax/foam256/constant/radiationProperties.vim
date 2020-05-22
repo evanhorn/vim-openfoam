@@ -20,7 +20,7 @@
 
     "- Keywords in radiation properties
     syn keyword radiationKeywords
-    \ solverFreq 
+    \ solverFreq
     \ absorptionEmissionModel
     \ scatterModel
     \ sootModel
@@ -29,7 +29,7 @@
 
 
     "-
-    syn keyword radiationSpecialKey 
+    syn keyword radiationSpecialKey
     \ noRadiation
     \ smoothing
     \ constantEmissivity
@@ -37,12 +37,12 @@
 
 
     "- Radiation and absorption models
-    syn keyword radModels 
+    syn keyword radModels
     \ P1
     \ P1
     \ fvDOM
     \ opaqueSolid
-    \ viewFactor 
+    \ viewFactor
     \ constantAbsorptionEmission
     \ binaryAbsorptionEmission
     \ greyMeanAbsorptionEmission

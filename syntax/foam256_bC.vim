@@ -16,13 +16,13 @@ endif
 let s:plugindir = expand('<sfile>:p:h:h')
 
 
-" Load BC file to buffer for completition
+" Load BC file to buffer for completion
 " -----------------------------------------------------------------------------
 let s:filepath= join([ s:plugindir ,"syntax/foam256/0/BC.vim"],"/")
 exec "badd ".s:filepath
 
 
-" Source general stuff 
+" Source general stuff
 " -----------------------------------------------------------------------------
 runtime syntax/foam256/general/general.vim
 
@@ -32,7 +32,7 @@ runtime syntax/foam256/general/general.vim
 runtime syntax/foam256/general/variables.vim
 
 
-" Source highlight for the files in 0/ 
+" Source highlight for the files in 0/
 " -----------------------------------------------------------------------------
 runtime syntax/foam256/0/BC.vim
 
