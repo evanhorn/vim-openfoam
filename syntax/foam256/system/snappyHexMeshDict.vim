@@ -48,6 +48,7 @@
     \ mappedWall
     \ cyclic
     \ symmetryPlane
+    \ noSlip
     \ slip
     \ empty
     \ wedge

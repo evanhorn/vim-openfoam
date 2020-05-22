@@ -38,6 +38,7 @@
     \ energy
     \ thermodynamics
     \ transport
+    \ type
     hi link thermodynamicKeys foam256_keyOnLeftSide
 
 

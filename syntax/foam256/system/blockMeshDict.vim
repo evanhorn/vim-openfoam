@@ -23,7 +23,7 @@
 
     "-
     syn keyword	blockMeshDictKeywords
-    \ convertToMeters
+    \ scale         " modified
     \ hex
     \ simpleGrading
     \ faces

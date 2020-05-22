@@ -46,7 +46,6 @@
     highlight link ctrDictDict foam256_dictionary
 
 
-
     "- Keys in controlDict on the right side (RS)
     syn keyword ctrDictKeysRS
     \ firstTime
@@ -56,7 +55,7 @@
     \ nextWrite
     \ timeStep
     \ runTime
-    \ adjustableRunTime
+    \ adjustable
     \ cpuTime
     \ clockTime
     \ ascii

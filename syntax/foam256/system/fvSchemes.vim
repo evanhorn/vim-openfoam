@@ -12,8 +12,15 @@
 
 
     "- Highlight the *.Schemes words
-    syntax match fvSmsDict
-    \ "^[a-zA-Z]\+Schemes"
+    " modified to explicitly call schemes
+    syntax keyword fvSmsDict
+    \ ddtSchemes
+    \ gradSchemes
+    \ divSchemes
+    \ laplacianSchemes
+    \ interpolationSchemes
+    \ snGradSchemes
+    \ timeScheme
     highlight link fvSmsDict foam256_fvSchemesDict
 
 

@@ -100,6 +100,11 @@
     \ "\#include\{1}\ \{1}"
     highlight link includeKey foam256_includeKey
 
+    "- Visualize included functions
+    syntax match includeFunc
+    \ "\#includeFunc\{1}\ \{1}"
+    highlight link includeFunc foam256_includeKey
+
 
     "- Get the file name and color it if its a right path
     "- Also used for included functions 'lib.so'

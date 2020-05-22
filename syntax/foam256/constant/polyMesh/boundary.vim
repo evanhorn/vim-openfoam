@@ -17,6 +17,7 @@
     \ symmetryPlane
     \ symmetry
     \ empty
+    \ noSlip
     \ slip
     \ cyclic
     \ mappedWall

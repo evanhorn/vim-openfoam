@@ -48,6 +48,7 @@
     \ turbOnFinalIterOnly
     \ nOuterCorrectors
     \ correctPhi
+    \ consistent
     highlight link fvSolKeywordsLS foam256_keyOnLeftSide
 
 

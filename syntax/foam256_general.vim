@@ -13,7 +13,7 @@ if exists("b:current_syntax")
 endif
 
 
-" Load file to buffer for completition
+" Load file to buffer for completion
 " -----------------------------------------------------------------------------
 let s:plugindir = expand('<sfile>:p:h:h')
 
@@ -38,6 +38,7 @@ runtime syntax/foam256/system/fvOptions.vim
 runtime syntax/foam256/system/fvSolution.vim
 runtime syntax/foam256/system/fvSchemes.vim
 runtime syntax/foam256/system/decomposePar.vim
+runtime syntax/foam256/system/sampleDict.vim
 runtime syntax/foam256/system/setFieldsDict.vim
 runtime syntax/foam256/system/snappyHexMeshDict.vim
 
@@ -58,7 +59,7 @@ runtime syntax/foam256/constant/polyMesh/blockMeshDict.vim
 
 
 " Source mapping of highlightgroups to standard highlightgroups
-"-------------------------------------------------------------------------------
+
 runtime syntax/foam256_keywordmapping.vim
 
 

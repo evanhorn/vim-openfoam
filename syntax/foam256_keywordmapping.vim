@@ -40,6 +40,7 @@
     hi link foam256_includeKey        PreProc
     hi link foam256_includeFile       Identifier
     hi link foam256_dictionary        Type
+    hi link foam256_fvSchemesDict     Type      " added
 
 
 " -----------------------------------------------------------------------------
@@ -55,11 +56,11 @@
 
 
 " -----------------------------------------------------------------------------
-    hi link foam256_fvSchemesOpr      Type
+    hi link foam256_fvSchemesOpr      Statement     " modified
 
 
 " -----------------------------------------------------------------------------
-    hi link foam256_setFieldSpecial   Normal
+    hi link foam256_setFieldSpecial   PreProc       " modified
 
 
 " -----------------------------------------------------------------------------

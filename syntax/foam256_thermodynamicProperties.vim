@@ -14,7 +14,7 @@ if exists("b:current_syntax")
 endif
 
 
-" Load  file to buffer for completition
+" Load  file to buffer for completion
 " -----------------------------------------------------------------------------
 let s:plugindir = expand('<sfile>:p:h:h')
 let s:filepath= join([ s:plugindir ,"syntax/foam256/const/thermodynamicProperties.vim"],"/")

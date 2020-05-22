@@ -33,13 +33,7 @@
 
     "- Dictionary (coefficents) of method
     syntax keyword decomposeCoeffs
-    \ simpleCoeffs
-    \ hierarchicalCoeffs
-    \ manualCoeffs
-    \ structuredCoeffs
-    \ scotchCoeffs
-    \ multiLevelCoeffs
-    \ metisCoeffs
+    \ coeffs
     \ patches
     highlight link decomposeCoeffs foam256_dictionary
 

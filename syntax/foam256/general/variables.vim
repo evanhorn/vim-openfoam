@@ -24,6 +24,7 @@
     \ sigma
     \ E
     \ U
+    \ mag
     \ p
     \ p_rgh
     \ k
