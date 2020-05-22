@@ -1,6 +1,6 @@
 "----------------------------------------------"
 " Contributor: Tobias Holzmann                 "
-" Last Change: December 2016                   "
+" Last Change: May 2020                        "
 "----------------------------------------------"
 " Location:    www.Holzmann-cfd.de             "
 " Email:       Tobias.Holzmann@Holzmann-cfd.de "
@@ -12,163 +12,108 @@
 
     "- Boundary types for incompressible and general condition
     syn keyword boundaryCondition
-      \ codedMixed
-      \ convectiveHeatTransfer
       \ cyclic
-      \ mappedPatch
       \ cyclicACMI
       \ cyclicAMI
       \ cyclicSlip
       \ directionMixed
       \ empty
-      \ energyJump
-      \ energyJumpAMI
-      \ externalCoupled
-      \ externalCoupledTemperature
-      \ externalWallHeatFluxTemperature
-      \ fixedEnergy
+      \ jumpCyclic
+      \ jumpCyclicAMI
       \ fixedJumpAMI
       \ fixedMean
-      \ fixedUnburntEnthalpy
-      \ gradientEnergy
-      \ gradientUnburntEnthalpy
-      \ greyDiffusiveRadiation
-      \ greyDiffusiveRadiationViewFactor
-      \ mapped
+      \ fixedMeanOutletInlet
       \ mappedField
       \ mappedFixedInternalValue
       \ mappedFixedPushedInternalValue
-      \ mixedEnergy
-      \ mixedUnburntEnthalpy
-      \ mutLowReWallFunction
-      \ mutURoughWallFunction
-      \ mutUSpaldingWallFunction
-      \ mutUWallFunction
-      \ mutkRoughWallFunction
-      \ mutkWallFunction
+      \ mappedFixedValue
       \ nonuniformTransformCyclic
       \ patch
+      \ noSlip
+      \ partialSlip
       \ phaseHydrostaticPressure
       \ prghPressure
+      \ prghTotalHydrostaticPressure
+      \ prghTotalPressure
       \ processor
       \ processorCyclic
-      \ sliced
       \ symmetry
       \ symmetryPlane
-      \ totalFlowRateAdvectiveDiffusive
       \ uniformFixedGradient
       \ uniformInletOutlet
       \ uniformJump
       \ uniformJumpAMI
       \ uniformTotalPressure
       \ variableHeightFlowRate
-      \ wallHeatTransfer
       \ waveSurfacePressure
       \ wedge
-      \ wideBandDiffusiveRadiation
       \ activeBaffleVelocity
       \ activePressureForceBaffleVelocity
       \ advective
-      \ buoyantPressure
       \ codedFixedValue
       \ cylindricalInletVelocity
-      \ directMappedField
-      \ directMappedFixedInternalValue
-      \ directMappedFixedPushedInternalValue
-      \ directMappedFixedValue
-      \ directMappedFlowRate
-      \ directMappedVelocityFluxFixedValue
+      \ extrapolatedCalculated
       \ fan
       \ fanPressure
       \ fixedGradient
       \ fixedFluxPressure
+      \ fixedFluxExtrapolatedPressure
+      \ fixedFluxPressure
       \ fixedInternalValueFvPatchField
       \ fixedJump
-      \ fixedLine
       \ fixedNormalSlip
+      \ fixedProfile
       \ fixedPressureCompressibleDensity
       \ fixedValue
-      \ fixedOrientation
       \ flowRateInletVelocity
       \ fluxCorrectedVelocity
       \ freestream
       \ freestreamPressure
+      \ plenumPressure
       \ inletOutlet
       \ inletOutletTotalTemperature
-      \ kqRWallFunction
       \ mixed
       \ movingWallVelocity
-      \ MarshakRadiation
-      \ MarshakRadiationFixedTemperature
-      \ oscillatingFixedValue
       \ outletInlet
       \ outletMappedUniformInlet
-      \ partialSlip
       \ pressureDirectedInletOutletVelocity
       \ pressureDirectedInletVelocity
       \ pressureInletOutletVelocity
       \ pressureInletUniformVelocity
       \ pressureInletVelocity
       \ pressureNormalInletOutletVelocity
+      \ pressurePIDControlInletVelocity
       \ rotatingPressureInletOutletVelocity
       \ rotatingTotalPressure
       \ rotatingWallVelocity
-      \ selfContainedDirectMapped
-      \ skript
       \ slip
       \ supersonicFreestream
       \ surfaceNormalFixedValue
       \ swirlFlowRateInletVelocity
+      \ swirlInletVelocity
+      \ swirlFanVelocity
       \ syringePressure
-      \ timeVaryingFlowRateInletVelocity
       \ timeVaryingMappedFixedValue
-      \ timeVaryingUniformFixedValue
-      \ timeVaryingUniformTotalPressure
       \ totalPressure
       \ totalTemperature
       \ translatingWallVelocity
-      \ tractionDisplacement
-      \ turbulentHeatFluxTemperature
+      \ turbulentDFSEMInlet
+      \ turbulentDigitalFilterInlet
       \ turbulentInlet
       \ turbulentIntensityKineticEnergyInlet
-      \ turbulentMixingLengthDissipationRateInlet
-      \ turbulentMixingLengthFrequencyInlet
-      \ uncoupledSixDoFRigidBodyDisplacement
       \ uniformDensityHydrostaticPressure
       \ uniformFixedValue
-      \ uniformDensityHydrostaticPressure
+      \ uniformNormalFixedValue
       \ waveTransmissive
-      \ groovyBC
-      \ zeroGradient
-      \ epsilonWallFunction
-      \ omegaWallFunction
-      \ nutkWallFunction
-      \ timeVaryingTotalPressure
-      \ basicSymmetry
-      \ coupled
       \ calculated
-      \ porousBafflePressure
-      \ linearSpring
-      \ SRFFreestreamVelocity
-      \ SRFVelocity
-      \ compressible::kqRWallFunction
+      \ freestreamVelocity
       \ fixedNormalInletOutletVelocity
-      \ interstitialInletVelocity
+      \ interfaceCompression
       \ mappedFlowRate
-      \ mappedVelocityFlux
+      \ mappedVelocityFluxFixedValue
       \ outletPhaseMeanVelocity
       \ pressureInletOutletParSlipVelocity
       \ variableHeightFlowRateInletVelocity
-      \ atmBoundaryLayerInletEpsilon
-      \ nutLowReWallFunction
-      \ nutTabulatedWallFunction
-      \ nutURoughWallFunction
-      \ nutUSpaldingWallFunction
-      \ nutUWallFunction
-      \ nutkAtmRoughWallFunction
-      \ nutkRoughWallFunction
-      \ alphatJayatillekeWallFunction
-      \ alphatWallFunction
     highlight link boundaryCondition foam256_bC
 
 
@@ -202,8 +147,6 @@
     highlight link bCCompressible foam256_bC
 
 
-" General stuff for all files in 0/*
-"------------------------------------------------------------------------------
 
     "- Constant keywords on the right side
     syn keyword bCKeywordsRS
@@ -220,6 +163,9 @@
     syn keyword bCKeywordsLS
       \ type
       \ name
+      \ origin
+      \ axis
+      \ omega
       \ Tnbr
       \ kappa
       \ kappaName
@@ -238,6 +184,8 @@
       \ neighbourFieldName
       \ intensity
       \ flowRate
+      \ matchedFlowRateOutletVelocity
+      \ flowRateOutletVelocity
       \ volumetricFlowRate
       \ massFlowRate
     highlight link bCKeywordsLS foam256_keyOnLeftSide
