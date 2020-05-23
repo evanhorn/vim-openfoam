@@ -3,12 +3,12 @@
 This short intruduction includes the steps which are necessary to get this application up and running.
 
 ### OpenFOAM Versions ###
-* Generated for all versions but adopted to 6.x
+* Generated for all versions but adopted to v1912
 
 ### What is this repository for? ###
 * This extension to the vim editor allows you to highlight a lot of OpenFOAM keywords
 * The original version was developed by [Holzmann-cfd](https://holzmann-cfd.de)
-* The current branch is maintained by Qi Zhang.
+* The current branch is maintained by Eric Van Horn and was forked from Qi Zhang.
 
 ### How do add the stuff to my vim? ###
 * In general you should use pathogen for keeping your vim folder clean and easy to manage
